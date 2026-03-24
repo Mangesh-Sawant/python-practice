@@ -1,0 +1,2 @@
+name = "mangesh"
+print(name)
