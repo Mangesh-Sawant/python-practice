@@ -1,0 +1,3 @@
+import celsius_to_fahreneit
+
+print(celsius_to_fahreneit.get_fahrenheit_from_celsius(23))
