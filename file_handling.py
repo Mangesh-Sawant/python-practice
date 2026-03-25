@@ -1,3 +1,5 @@
-with open("example.txt") as file:
-    content = file.read()
-    print(content)
+with open("example.txt", "a+") as file:
+    file.write("My name is Khan and i am Not Good, ")
+
+with open("example.txt", "r") as file:
+    print(file.read())
